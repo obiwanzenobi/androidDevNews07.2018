@@ -11,6 +11,6 @@
 - Constraint Set moze zawierać nie tylko atrybuty umiejscowienia widoku |
 +++?image=images/motionKeyFrame.gif
 +++?image=images/motionTool.gif
-+++?image=images/motionDrawer.gif
-+++?image=images/motionLottie.gif
++++?image=images/motionDrawer.gif&size=auto
++++?image=images/motionLottie.gif&size=auto
 
