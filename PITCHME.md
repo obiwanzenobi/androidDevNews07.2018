@@ -31,16 +31,30 @@ https://medium.com/google-developers/introduction-to-motionlayout-part-i-2920867
 ### Emulator
 - Wersja 28 canary umożliwia uruchomienie kilku instancji tego samego AVD |
 - Dodanie supportu dla procesorów AMD® oraz Hyper-V® od Microsoftu® w 27.3.8 stable |
+- Zarządanie snapshotami od 27.3.8 stable |
 - Emulator w wersji 27.3.6 canary uzywający Hyper-V lub Windows® Hypervisor Platform® z procesorami AMD Ryzen czasami powodował bootloopa Windowsa |
 +++
 ### AStudio
 #### Wersja 3.2 wchodzi w faze bety (obecnie juz beta4)
-#### Najważniejsze nowości:
  - App Bundles, |
  - Jetpack/AndroidX support/migration, |
  - Nowe profilery, |
  - Zmiany w lincie (+ linFix gradle task), |
  - D8 jako domyslny dexer, opcjonalnie R8 jako zamiennik za proguarda |
+ - ADB connection assistant|
+ - AAPT2 (Android asset packaging tool, incremental)|
 +++
 ### Astudio
-#### Wersja 3.3 udostępniona jako canary (obecnie canary 3) |
+#### Wersja 3.3 udostępniona jako canary (obecnie canary 3)
+- Rożnice miedzy runtime i compile classpathem będą od teraz errorami a nie warningami |
+- Domyślne wczytywanie optymalizacji R8 dla kotlina, lambd i null checków |
+- Wprowadza Gradle 4.9 |
+
+---
+### Inne
+- JDK 12 nie będzie mogł targetować wersji 6 podczas kompilacji javac |
+- Pickle - implementacja cucumber dla Androida generująca testy Compile Time |
+- Jake Wharton wypuszcza chrome extension SDK search |
++++
+https://github.com/fourlastor/pickle
+https://github.com/JakeWharton/SDKSearch
