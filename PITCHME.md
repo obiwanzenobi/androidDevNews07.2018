@@ -35,10 +35,10 @@ https://medium.com/google-developers/introduction-to-motionlayout-part-i-2920867
 +++
 ### AStudio
 - Wersja 3.2 wchodzi w faze bety (obecnie juz beta4) |
-- Najwazniejsze nowości 3.2:
- + App Bundles, 
- + Jetpack/AndroidX support/migration,
- + Nowe profilery, 
- + Zmiany w lincie (+ linFix gradle task), 
+- Najwazniejsze nowości 3.2: |
+ + App Bundles, |
+ + Jetpack/AndroidX support/migration, |
+ + Nowe profilery, |
+ + Zmiany w lincie (+ linFix gradle task), |
  + D8 jako domyslny dexer, opcjonalnie R8 jako zamiennik za proguarda |
 - Wersja 3.3 udostępniona jako canary (obecnie canary 3) |
